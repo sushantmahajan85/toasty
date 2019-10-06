@@ -1,0 +1,175 @@
+.navigation{
+
+   
+    &_item{
+font-size: .2rem;
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+margin: 0.8rem;
+
+width: 100%;
+@include respond (tab-port){
+    font-size: 1.2rem;
+      }
+}
+    &_link{
+        &:link,&:visited{
+            text-decoration: none;
+color: white;
+background-image: linear-gradient(120deg, transparent 0%,transparent 50%,white 50%);
+    background-size: 220%;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    transition: all .4s;
+
+        }
+&:hover,&:active{
+    color: $light-green;
+    background-position: 100%;
+}
+    }
+   
+    
+}
+.material-icons{
+color:gray;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+&:hover{
+    color: red;
+}
+}
+.nav_tff{
+    text-align: start;
+    color:white;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    font-family: 'Amaranth';
+    
+}
+.sidenav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999;
+    background-color: $purple !important;
+}
+.follow_us{
+    text-align: start;
+    color:white;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+.section_pic a{
+    text-decoration: none;
+    
+}
+.fas {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fas:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: rgb(199, 203, 212);
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(196, 198, 204);
+    color: white;
+  }
+  .fao{
+    background-color: unset;
+    color: tan;
+  }
+  .nav_logos{
+      background-image: none;
+      margin-top: 3.5rem;
+  }
+.fao{
+    color: tan;
+}
+.nav_loga{
+    
+        position: fixed;
+        top: 3rem;
+        right: 3rem;
+        z-index: 1;
+        padding: 0rem .5rem;
+        background-color:$purple;
+        display: none;
+    
+}
+.navi{
+    padding: 1rem;
+    background-color: $purple;
+    position: relative;
+    &_logo{
+width: 9rem;
+height: 6rem;
+margin-left: 2rem;
+display: inline-block;
+    }
+    
+    &_list {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%,-50%);
+    }
+    &_item{
+
+display: inline-block;
+margin-right: 6rem;
+font-size: 2rem;
+color: white;
+padding: 0.62rem;
+border-radius: 1rem;
+text-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.705);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+&:hover{
+    background-color: white;
+color: black;
+}   
+}
+    &_member{
+display: inline-block;
+position: absolute;
+top: 2.4rem;
+right: 4.5rem;
+text-align: center;
+font-size: 2rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 1rem;
+background-color: black;
+border-radius: 1rem;
+font-weight: 800;
+&:hover{
+    
+    background-color: white;
+}
+    }
+}
+.navi a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: black;
+    }
+}

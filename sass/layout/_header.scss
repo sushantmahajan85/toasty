@@ -1,0 +1,72 @@
+.header {
+    z-index: 0.5;
+    font-family: "decade";
+    
+    backface-visibility: hidden; 
+    
+    &_full{
+        position: relative;
+        height: 70vh;
+        background-color: #e3e3e3;
+    }
+    &_pic{
+        height: 70vh;
+        width: 50%;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    &_left{
+        z-index: 5;
+        width: 38%;
+        height: 50vh;
+        position: absolute;
+        top: 50%;
+        left: 37%;
+        transform: translate(-50%,-50%);
+        background-color: $purple;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.692);
+        border-radius: 1rem;
+    }
+    &-left_text{
+        text-align: center;
+        color: white;
+        font-size: 3.4rem;
+        letter-spacing: 0.2rem;
+        font-weight: 800;
+        font-family: 'Amaranth';
+        margin: 5rem 1.5rem 3rem 1.5rem ;
+        text-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.637);
+    }
+    &_para{
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem;
+        display: block;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    @include respond(land-port){
+        background-image: url(../img/Photo-23.jpg);
+    }
+    @media (min-width: 600px){
+        background-image: url(../img/tff_final.jpg);
+    }
+}
+ 
+.header_logo-box{
+    padding: 3rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+.thapar{
+display:inline-block;
+}
+.toastmasters{
+display: block;
+}
+.club{
+display: block;
+}
