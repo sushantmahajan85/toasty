@@ -1,4 +1,96 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+.section-contact {
+  position: relative;
+  padding: 43rem 0;
+  background-image: linear-gradient(to right bottom, #6d6e6e, #8a8888); }
+  .section-contact_area {
+    height: 55rem;
+    width: 75%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.726);
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.705) 0%, rgba(255, 255, 255, 0.705) 50%, transparent 50%), url(../img/photo-1541592553160-82008b127ccb.jpg);
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.493);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .section-contact_left {
+    transform: translateX(4rem); }
+
+#name {
+  display: block;
+  width: 38%;
+  padding: 1rem 3rem;
+  text-align: start;
+  margin-bottom: 1.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.4rem; }
+
+#email {
+  display: block;
+  width: 38%;
+  margin-bottom: 1.2rem;
+  text-align: start;
+  padding: 1rem 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.4rem; }
+
+#query {
+  display: block;
+  margin-bottom: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  width: 38%;
+  padding: 6rem 3rem;
+  text-align: start; }
+
+.submit {
+  background-color: #4a4b4b;
+  color: white;
+  display: block;
+  width: 10%;
+  text-align: start;
+  padding: 1rem 3rem;
+  outline: none;
+  text-align: start;
+  border: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.4rem; }
+  .submit:hover {
+    background-color: black; }
+
+.input {
+  outline: none; }
+  .input:focus {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.158);
+    border-bottom: 3px solid #4ce646;
+    outline: none;
+    border: none; }
+  .input:focus:invalid {
+    border-bottom: 3px solid #f36c12; }
+
+.event {
+  position: relative;
+  padding: 0 0  70rem 0; }
+  .event_left {
+    background-image: url(../img/postermeeting.jpeg);
+    padding: 30rem 20rem;
+    background-size: 100% 100%;
+    z-index: 99;
+    position: absolute;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.658); }
+  .event_right {
+    padding: 5rem 5rem 10rem 15rem;
+    position: absolute;
+    top: 44%;
+    z-index: 1;
+    width: 60%;
+    left: 35%;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.651);
+    background-color: #e4e2e2; }
+
 * {
   padding: 0%;
   margin: 0%;
@@ -66,7 +158,7 @@ body {
       width: 80%; } }
 
 .row {
-  max-width: 114rem;
+  max-width: 120rem;
   margin: 0 auto;
   content: "";
   display: table;
@@ -83,13 +175,14 @@ body {
       max-width: 50rem; } }
 
 .col-1-of-2 {
-  width: 54rem;
+  width: 57rem;
   float: left; }
   .col-1-of-2:not(:last-child) {
     margin-right: 6rem; }
     @media (max-width: 75em) {
       .col-1-of-2:not(:last-child) {
-        margin-right: 0; } }
+        margin-right: 0;
+        margin-bottom: 6rem; } }
   @media (max-width: 75em) {
     .col-1-of-2 {
       width: 100% !important; } }
@@ -108,7 +201,7 @@ body {
         margin-bottom: 6rem; } }
 
 .col-1-of-3 {
-  width: 34rem;
+  width: 36rem;
   float: left; }
   @media (max-width: 75em) {
     .col-1-of-3 {
@@ -164,10 +257,11 @@ body {
   .popup_cross:link, .popup_cross:visited {
     font-size: 4rem;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: 800;
     position: absolute;
-    top: 1rem;
-    right: 2rem; }
+    top: 0.7rem;
+    right: 5rem; }
     @media (max-width: 56.25em) {
       .popup_cross:link, .popup_cross:visited {
         position: absolute;
@@ -934,287 +1028,23 @@ body {
 ::selection {
   color: red; }
 
-.sq1 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq2 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq3 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq4 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq5 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq6 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq7 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq8 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq9 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq10 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq11 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq12 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq13 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq14 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq15 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq16 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq17 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq18 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq19 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq20 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq21 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq22 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq23 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq24 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq25 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq26 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq27 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq28 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq29 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq30 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq31 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq32 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq33 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq34 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq35 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq36 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq37 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq38 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq39 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq40 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq41 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq42 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq43 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq44 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq45 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq46 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq47 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq48 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq49 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq50 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq51 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq52 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq53 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq54 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq55 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq56 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq57 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq58 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq59 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq60 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq61 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq62 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq63 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq64 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq65 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq66 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq67 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq68 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq69 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq70 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq71 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq72 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq73 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq74 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq75 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq76 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq77 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq78 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq79 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq80 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq81 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq82 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq83 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq84 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq85 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq86 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq87 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq88 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq89 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq90 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq91 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq92 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq93 {
-  background-image: url(../img/tff-logo.png); }
-
-.sq94 {
-  background-image: url(../img/tff-logo.png); }
+.apply {
+  padding: 1.5rem 2.3rem;
+  background-color: gray;
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 100%;
+  right: 5%; }
+  .apply:hover {
+    color: white;
+    background-color: red; }
+
+.wow-slider {
+  background-image: url(../img/pattern1.jpg);
+  padding: 7rem 0; }
 
 .heading-main {
   font-weight: 400;
@@ -1233,6 +1063,38 @@ body {
   line-height: 3rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
+
+.events_para {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-bottom: -2rem; }
+
+.event_text {
+  text-align: center; }
+
+.heading-secondary {
+  display: inline-block;
+  font-weight: 1100;
+  font-size: 4rem;
+  margin-top: 3rem;
+  font-family: 'Amaranth';
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #614d37, #707070);
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+  transition: all 0.3s; }
+  @media (max-width: 56.25em) {
+    .heading-secondary {
+      font-weight: 400;
+      margin-bottom: 3rem; } }
+  @media (max-width: 37.5em) {
+    .heading-secondary {
+      font-weight: 300;
+      margin-bottom: 2rem; } }
+  .heading-secondary:hover {
+    transform: scale(1.3);
+    text-shadow: 1rem 3rem 5rem rgba(0, 0, 0, 0.349); }
 
 .btn-link {
   color: #7ed56f;
@@ -1523,12 +1385,10 @@ body {
   color: #f5af19; }
 
 .center {
-  text-align: center;
-  margin-top: 3rem; }
+  text-align: center; }
   @media (max-width: 56.25em) {
     .center {
-      margin-bottom: 2rem;
-      margin-top: 2rem; } }
+      margin-bottom: 2rem; } }
 
 @keyframes moveinleft {
   0% {
@@ -1554,6 +1414,75 @@ body {
 
 .u-centre {
   text-align: center; }
+
+.achievements {
+  position: relative;
+  padding: 7rem 0; }
+  .achievements_box1 {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.589);
+    padding: 5rem;
+    background-color: rgba(236, 233, 233, 0.76);
+    transform: skewX(-12deg);
+    transition: all 0.3s; }
+    .achievements_box1:hover {
+      transform: scale(1.1) skewX(-12deg); }
+  .achievements_box2 {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.589);
+    padding: 5rem;
+    background-color: rgba(236, 233, 233, 0.76);
+    transform: skewX(-12deg);
+    transition: all 0.3s; }
+    .achievements_box2:hover {
+      transform: scale(1.1) skewX(-12deg); }
+  .achievements_box3 {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.589);
+    padding: 5rem;
+    transition: all 0.3s;
+    background-color: rgba(236, 233, 233, 0.76);
+    transform: skewX(-12deg); }
+    .achievements_box3:hover {
+      transform: scale(1.1) skewX(-12deg); }
+  .achievements_box4 {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.589);
+    transition: all 0.3s;
+    padding: 5rem;
+    background-color: rgba(236, 233, 233, 0.76);
+    transform: skewX(-12deg); }
+    .achievements_box4:hover {
+      transform: scale(1.1) skewX(-12deg); }
+
+.story {
+  transform: skewX(12deg); }
+  .story_shape {
+    padding: 3rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: orangered;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-1.5rem); }
+    .story_shape:hover {
+      filter: blur(3px) brightness(80%); }
+
+.heading-small {
+  font-size: 2rem;
+  color: #353535;
+  margin-bottom: 1.1rem; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.38;
+  overflow: hidden; }
+  .bg-video_content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
 
 .navigation_item {
   font-size: .2rem;
@@ -1702,7 +1631,6 @@ body {
 
 .section-about {
   background-color: #ffffff;
-  background-image: url(../img/pattern1.jpg);
   padding: 30rem 0 1rem 0;
   margin-top: -30vh; }
   @media (max-width: 75em) {
@@ -1904,7 +1832,7 @@ body {
     text-align: center;
     color: white;
     font-size: 3.4rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.4rem;
     font-weight: 800;
     font-family: 'Amaranth';
     margin: 5rem 1.5rem 3rem 1.5rem;

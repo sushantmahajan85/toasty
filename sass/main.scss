@@ -1,5 +1,7 @@
 
 @import "abstracts/mixins";
+@import "components/contact";
+@import "layout/event";
 
 @import "base/base"; 
 @import"abstracts/variables";
@@ -11,7 +13,7 @@
 
 @import "base/animations";
 @import "base/utilities";
-@import "abstracts/functions";
+@import "abstracts/achievements";
 
 @import"components/navigation";
 
