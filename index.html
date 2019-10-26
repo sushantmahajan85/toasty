@@ -14,14 +14,41 @@
         <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
-       
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&amp;display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
 	<script type="text/javascript" src="engine0/jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
 	<body >
         
-         
+         <header class="header">
+             
+<nav class="nav">               
+<h2 class="nav_logo">TOASTMASTERS</h2>
+<ul class="nav_list">
+    <li class="nav_links">ABOUT</li>
+    <li class="nav_links">TEAM</li>
+    <li class="nav_links">CONTACT</li>
+    <li class="nav_links">EVENTS</li>
+    <!-- <li class="nav_links">VISHU</li> -->
+</ul>
+<a href="member.html" class="login">Member Login</a>
+</nav>
+         </header>
+         <section class="countdown">
+             <div class="row countdown_row">
+                 <div class="col-1-of-2 countdown_col2">
+                     <h2 class="heading-small">Details of Next Meeting</h2>
+                     <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur sint facilis autem ad doloremque
+                          esse, veritatis facere repellat et quibusdam. Labore quod dolorum quos omnis quasi? Alias, aliquid numquam.</p>
+                 </div>
+                 <div class="col-1-of-2 countdown_col1">
+                        <div id="clock"></div>
+                        
+                                         </div>
+                                      
+             </div>
+         </section>
           <section class="section-about" id="section-about"> 
                 <div class="row">
                         <div class="col-1-of-2">
@@ -172,7 +199,7 @@
 </section>
 
 
-        <footer class="footer" id="footer">
+         <footer class="footer" id="footer">
 <!-- <div class="footer_logo-box">
     <img src="sass/img/white_logo.png" alt="logo" class="footer_logo"></div> -->
 <div class="row">
@@ -230,6 +257,21 @@
                     </div>
                     
         </div>
-        
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="countdown.js"></script>
+        <script>
+        $('#clock').countdown('2020/12/12',function(event){
+           var $this= $(this).html(event.strftime(''
+            +'<div><span>%d</span><span>Days</span></div>'
+            +'<div><span>%H</span><span>Hours</span></div>'
+            +'<div><span>%M</span><span>Min</span></div>'
+            +'<div><span>%S</span><span>Secs</span></div>'
+            ))
+
+        })
+        </script>
                         </body>
 </html>
