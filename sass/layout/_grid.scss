@@ -37,15 +37,16 @@
 }
 .col-1-of-4{
     
-   width: 24rem;
-    float:left;
+   max-width: 25.5rem;
+    float: left;
     @include respond (tab-land){
-        width: 100% ;
+        width: 100% !important;
   }
     &:not(:last-child){
         margin-right: 6rem;
         @include respond (tab-land){
             margin-right: 0;
+            width: 100 !important;
             margin-bottom: 6rem;
     }
 }
