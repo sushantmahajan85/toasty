@@ -33,14 +33,15 @@
  }
  .heading-secondary{
   display: inline-block;
-  font-weight: 1100;
-  font-size: 4rem;
+  font-weight: 400;
+  font-size: 3.4rem;
   margin-top: 3rem;
-  font-family: 'Amaranth';
--webkit-background-clip: text;
-color: transparent;
-  background-image: linear-gradient(to right ,rgb(97, 77, 55), rgb(112, 112, 112));
-  text-transform: uppercase;
+  font-family:  poppins,sans-serif;
+  color: #1f1f1f;
+// -webkit-background-clip: text;
+// color: transparent;
+//   background-image: linear-gradient(to right ,rgb(148, 148, 147), rgb(73, 73, 72));
+
   margin-bottom: 5rem;
 transition: all 0.3s;   
   @include respond (tab-port){
