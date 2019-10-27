@@ -70,10 +70,12 @@ font-size: 1.4rem;
 }
 .input{
     outline: none;
-    
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.082);
+    outline: none;
+    border: none;
     &:focus{
 
-    box-shadow: 0  1rem 2rem rgba(0, 0, 0, 0.158);
+    box-shadow: 0  2rem 4rem rgba(0, 0, 0, 0.377);
     border-bottom:3px solid rgb(76, 230, 70);
     outline: none;
     border: none;
