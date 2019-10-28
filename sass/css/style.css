@@ -95,19 +95,23 @@
 
 .wow-slider {
   padding: 7rem 0;
-  margin: 5rem;
   background-color: #f8f9fa; }
 
 .team {
   background-color: #f5f7fb;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 5rem; }
   .team_card {
     padding: 3rem;
     background-color: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.103);
-    border-radius: 1rem; }
+    border-radius: 1rem;
+    transition: all 0.3s; }
+    .team_card:hover {
+      box-shadow: 0 0 2rem rgba(0, 0, 0, 0.397);
+      transform: translateY(-0.75rem); }
   .team_img {
     display: inline-block;
     height: 12rem;
@@ -116,6 +120,30 @@
     border-radius: 50%;
     background-color: black;
     margin-bottom: 2.3rem; }
+  .team_img1 {
+    background-image: url(../img/prakhar.jpeg);
+    background-size: 100% 100%; }
+  .team_img2 {
+    background-image: url(../img/venu.jpeg);
+    background-size: 100% 100%; }
+  .team_img3 {
+    background-image: url(../img/shagun.jpeg);
+    background-size: 100% 100%; }
+  .team_img4 {
+    background-image: url(../img/mahavir.jpeg);
+    background-size: 100% 100%; }
+  .team_img5 {
+    background-image: url(../img/aditya.jpeg);
+    background-size: 100% 100%; }
+  .team_img6 {
+    background-image: url(../img/prakhar.jpeg);
+    background-size: 100% 100%; }
+  .team_img7 {
+    background-image: url(../img/prakhar.jpeg);
+    background-size: 100% 100%; }
+  .team_img8 {
+    background-image: url(../img/prakhar.jpeg);
+    background-size: 100% 100%; }
 
 .heading-team {
   font-size: 2.3rem;

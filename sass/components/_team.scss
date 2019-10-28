@@ -1,13 +1,19 @@
 .team{
     background-color: #f5f7fb;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     text-align: center;
+    padding-bottom: 5rem;
     &_card{
         padding: 3rem;
         background-color: white;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.103);
         border-radius: 1rem;
+        transition: all 0.3s;
+        &:hover{
+            box-shadow: 0 0 2rem rgba(0, 0, 0, 0.397);
+            transform: translateY(-0.75rem);
+        }
     }
     
     &_img{
@@ -18,6 +24,31 @@
         border-radius: 50%;
         background-color: black;
         margin-bottom: 2.3rem;
+    }
+    &_img1{
+        background-image: url(../img/prakhar.jpeg);
+        background-size: 100% 100%;
+    }&_img2{
+        background-image: url(../img/venu.jpeg);
+        background-size: 100% 100%;
+    }&_img3{
+        background-image: url(../img/shagun.jpeg);
+        background-size: 100% 100%;
+    }&_img4{
+        background-image: url(../img/mahavir.jpeg);
+        background-size: 100% 100%;
+    }&_img5{
+        background-image: url(../img/aditya.jpeg);
+        background-size: 100% 100%;
+    }&_img6{
+        background-image: url(../img/prakhar.jpeg);
+        background-size: 100% 100%;
+    }&_img7{
+        background-image: url(../img/prakhar.jpeg);
+        background-size: 100% 100%;
+    }&_img8{
+        background-image: url(../img/prakhar.jpeg);
+        background-size: 100% 100%;
     }
     
 }
