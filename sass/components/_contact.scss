@@ -1,6 +1,6 @@
 .section-contact{
     position: relative;
-    padding: 37rem 0;
+    padding: 35rem 0;
     background-image: linear-gradient(to right bottom,#6d6e6e,rgb(138, 136, 136));
     &_area{
         height: 55rem;
@@ -28,8 +28,8 @@ padding: 1rem 3rem;
 
 text-align: start;
 background: rgba(255, 255, 255, 0.397);
-margin-bottom: 1.2rem;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 1.6rem;
+font-family: 'Signika', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 1.4rem;
 }
 #email{
@@ -37,20 +37,20 @@ display: block;
 width: 38%;
 
 background: rgba(255, 255, 255, 0.397);
-margin-bottom: 1.2rem;
+margin-bottom: 1.6rem;
 text-align: start;
 padding: 1rem 3rem;
 
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Signika', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 1.4rem;
 
 background: rgba(255, 255, 255, 0.397);
 }
 #query{
 display: block;
-margin-bottom: 1rem;
+margin-bottom: 1.6rem;
 background: rgba(255, 255, 255, 0.397);
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Signika', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 1.4rem;
 width: 38%;
 padding: 6rem 3rem;
@@ -66,8 +66,9 @@ padding: 1rem 3rem;
 outline: none;
 text-align: start;
 border: none;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Signika', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 1.4rem;
+margin-left: 0.5em;
 &:hover{
     background-color: black;
 }
@@ -87,4 +88,10 @@ font-size: 1.4rem;
 &:focus:invalid{
     border-bottom: 3px solid rgb(243, 108, 18);
 }
+}
+
+#contact-heading {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
 }
