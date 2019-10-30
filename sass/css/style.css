@@ -475,7 +475,7 @@ rgba(0, 0, 0, 0.349);
       margin-bottom: 2rem; } }
 
 .footer {
-  background-color: black;
+  background-color: #292825;
   padding: 13rem 0 2rem 0;
   font-family: 'Signika', 'Amaranth';
   font-size: 1.7rem; }
@@ -530,42 +530,6 @@ rgba(0, 0, 0, 0.349);
 .achievements {
   position: relative;
   padding: 7rem 0; }
-  .achievements_box1 {
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.253);
-    padding: 5rem;
-    background-color: rgba(236, 233, 233, 0.76);
-    transform: skewX(-12deg);
-    transition: all 0.3s;
-    /* &:hover{
-    transform: scale(1.1) skewX(-12deg); 
-} */ }
-  .achievements_box2 {
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.253);
-    padding: 5rem;
-    background-color: rgba(236, 233, 233, 0.76);
-    transform: skewX(-12deg);
-    transition: all 0.3s;
-    /* &:hover{
-    transform: scale(1.1) skewX(-12deg); 
-} */ }
-  .achievements_box3 {
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.253);
-    padding: 5rem;
-    transition: all 0.3s;
-    background-color: rgba(236, 233, 233, 0.76);
-    transform: skewX(-12deg);
-    /* &:hover{
-    transform: scale(1.1) skewX(-12deg); 
-} */ }
-  .achievements_box4 {
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.253);
-    transition: all 0.3s;
-    padding: 5rem;
-    background-color: rgba(236, 233, 233, 0.76);
-    transform: skewX(-12deg);
-    /* &:hover{
-    transform: scale(1.1) skewX(-12deg); 
-} */ }
 
 .story {
   transform: skewX(12deg); }
@@ -588,19 +552,43 @@ rgba(0, 0, 0, 0.349);
   margin-bottom: 1.1rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.38;
-  overflow: hidden; }
-  .bg-video_content {
-    height: 100%;
-    width: 100%;
-    object-fit: cover; }
+.prize {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.prize1 {
+  transition: all 0.3s; }
+  @media (max-width: 37.5em) {
+    .prize1 {
+      height: 160px; } }
+  .prize1:hover {
+    filter: opacity(0.7); }
+
+.prize2 {
+  transition: all 0.3s; }
+  @media (max-width: 37.5em) {
+    .prize2 {
+      height: 160px; } }
+  .prize2:hover {
+    filter: opacity(0.7); }
+
+.prize3 {
+  transition: all 0.3s; }
+  @media (max-width: 37.5em) {
+    .prize3 {
+      height: 160px; } }
+  .prize3:hover {
+    filter: opacity(0.7); }
+
+.prize4 {
+  transition: all 0.3s; }
+  @media (max-width: 37.5em) {
+    .prize4 {
+      height: 160px; } }
+  .prize4:hover {
+    filter: opacity(0.7); }
 
 .section-about {
   background-color: #ffffff;
