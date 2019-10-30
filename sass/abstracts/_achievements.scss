@@ -1,6 +1,18 @@
 .achievements{
 position: relative;
 padding: 7rem 0 ;
+&_text{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 80%;
+    background-color: gray;
+    padding: 2rem;
+    transform: translateY(-6.4rem);
+    // border-top-right-radius: 50%;
+    // border-bottom-right-radius: 50%;
+opacity: 0.87;}
 // background-image: url(../img/grid.jpg);
 // background-size: 100% 100%;
 //     &_box1{
@@ -85,6 +97,7 @@ transform: translateX(-1.5rem);
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 .prize1{
 // flex: 0 1 25%;
