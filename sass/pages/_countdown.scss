@@ -1,8 +1,14 @@
 .countdown{
     position: relative;
 background-color: white;
-
-    padding: 0 0 20rem 0;    
+    padding: 0 0 20rem 0;
+    
+@include respond(tab-land){
+    transform: translateY(-22rem);
+  }    
+  @include respond(tab-port){
+    transform: translateY(1rem);
+}
     &_row{
         border-radius: 1rem;
         position: absolute;
@@ -11,24 +17,38 @@ background-color: white;
         transform: translate(-50%,-50%);
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.267);
         padding: 6.5rem 0rem 6.5rem 0rem;
+
     background-color: white;
     width: 100%;
+    @include respond(tab-port){
+    padding: 4rem 0 4rem 0;
+}
     }
     &_col1{
 padding-right: 8rem;
 }
     &_col2{
     
-
+        @include respond(tab-port){
+        padding-left: 0rem;
+        }
     padding-left: 8rem;
     }
 }
 #clock{
     display: flex;
 justify-content: space-around;
+@include respond(tab-land){
+    justify-content: space-evenly;
+    margin-top: 0rem;
+    transform: translateX(3rem);
+  }
+  @include respond(tab-port){
+    margin-top: -2rem;
+}
 margin-top: 3rem;
 & div{
-    padding: 2rem;
+    margin: 2rem;
     
 }
 & div span:nth-child(1){

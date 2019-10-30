@@ -24,7 +24,34 @@
 	<body >
         
          <header class="header">
-             
+          
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          <div id="main">
+            <span style="font-size:30px;cursor:pointer; position: fixed;" class="hamburger" onclick="openNav()">&#9776; </span>
+          </div>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            document.body.style.backgroundColor = "white";
+          }
+          </script>
+          
+                     
 <nav class="nav">               
 <h2 class="nav_logo">TOASTMASTERS</h2>
 <ul class="nav_list">
@@ -34,8 +61,10 @@
     <li class="nav_links"><a href="#wow-slider"style="text-decoration: none; color: white;">EVENTS</a></li>
     <!-- <li class="nav_links">VISHU</li> -->
 </ul>
-
 <a href="member.html" class="login"> <i class="fa fa-sign-in" aria-hidden="true" style="margin-right: 0.5rem;"></i> LOGIN</a>
+ 
+     
+  
 </nav>
 <div class="social">
     <div><i class="fa fa-facebook social_icons" aria-hidden="true" style="display: inline-flex; font-size: 1.6rem;"></i></div>
@@ -57,21 +86,25 @@
                                          </div>
                                       
              </div>
+            
          </section>
           <section class="section-about" id="section-about"> 
                 <div class="row">
                         <div class="col-1-of-2">
                     <h1 class="heading-main" data-aos="fade-right">WHO WE ARE</h1>
                     <p class="paragraph" data-aos="fade-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis dolore quod 
-                        assumenda sequi placeat commodi dignissimos animi? Consequuntur, soluta atque neque dicta doloribus, ad odit a molestiae deleniti perferendis, voluptas consectetur nemo accusamus alias nobis quam delectus laborum fuga, ducimus nesciunt eius earum soluta labore repudiandae dolorum dolores.
+                        assumenda sequi placeat commodi dignissimos animi? Consequuntur, soluta atque neque dicta doloribus, ad odit a molestiae deleniti perferendis, voluptas
+                         consectetur nemo accusamus alias nobis quam delectus laborum fuga, ducimus nesciunt eius earum soluta labore repudiandae dolorum dolores.
                     </p>
-                    <a href="#" style="text-decoration: none; color: black;
+                    
+                    <a href="#" style="text-decoration: none; color: black;margin-left: 1rem;
                      font-size: 1.4rem; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
                      Learn More &rarr;</a>
                         </div>
                    <div class="col-1-of-2">
-                        <iframe width="560" height="315" data-aos="fade-left" style="border-radius: 1rem" src="https://www.youtube-nocookie.com/embed/tCH8VYTOJFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                       <div class="center"> 
+                        <iframe class="youtube" width="560" height="315"  style="border-radius: 1rem" src="https://www.youtube-nocookie.com/embed/tCH8VYTOJFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                    </div>
 
                         
@@ -195,12 +228,8 @@
     <div class="col-1-of-4 footer-box3"data-aos="fade-up"> 
         <h2 class="footer_text">instagram</h2>
      <ul class="insta">
-      
-        <!-- SnapWidget -->
-
-<iframe src="https://snapwidget.com/embed/752796" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style="border:none; overflow:hidden;  width:100%; padding-top: 1rem; " allowfullscreen></iframe>
-        <!-- <iframe id="  6da550fc6c7aea21c02074923a107a19d31304a5502d0e6236dc681f8508d4f9" style="border: 0px; width: 260px; height: 380px;padding-top: 1rem; margin: 0px;" 
-        scrolling="yes" frameborder="no" src="https://lightwidget.com/widgets/embed?u=6da550fc6c7aea21c02074923a107a19d31304a5502d0e6236dc681f8508d4f9"></iframe>     -->
+<!-- SnapWidget -->
+<iframe src="https://snapwidget.com/embed/752796" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:260px; height:380px; padding-top: 1rem;"></iframe>      
     </ul> 
         
         </div>

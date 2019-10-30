@@ -10,6 +10,10 @@
    font-family: 'Signika', 'Amaranth';
    border-bottom: 1.2px solid grey;
    padding-bottom: 1rem;
+   
+@include respond(tab-land){
+ text-align: center;
+}
  }
  .paragraph{
    font-size: 1.75rem;
@@ -20,6 +24,11 @@
    &:not(:last-child){
      margin-bottom: 3rem;
    }
+   
+@include respond(tab-land){
+ text-align: center;
+ 
+}
  }
  .events_para{
    text-align: center;
@@ -134,4 +143,13 @@ color: tan;
    margin-bottom: 2rem;
    
   }
+}
+.youtube{
+  text-align: center;
+  overflow: hidden;
+@include respond(tab-land){
+  height: 220px;
+  width: 310px;
+  margin-top: 2rem;
+}
 }

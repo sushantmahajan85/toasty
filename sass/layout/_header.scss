@@ -14,12 +14,19 @@
     background-position: top;
 }
 .nav{
+
+    transform: translateY(-3rem);
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 2rem;
     color: white;
     font-family: 'Signika', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    @include respond(tab-land){
+        opacity: 0;
+        visibility: none;
+        display: none;
+      }
 &_list{
 list-style: none;
 margin-top: 1.2rem;
@@ -92,3 +99,68 @@ border-radius: 50%;
 
     }
 }
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    z-index: 99999999999999999999999;
+    display: block;
+    transition: 0.3s;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .hamburger{
+      opacity: 0;
+      visibility: hidden;
+      display: none ;
+      color: white;
+      padding: 0.5rem;
+      position: fixed;
+      top: 3rem;
+      right: 3rem;
+    z-index: 999999999999999999999999999999;
+       @include respond(tab-land){
+        opacity: 1;
+        visibility: visible;
+        display: unset;
+        background-color: black;
+        color: white;
+      }
+  }
