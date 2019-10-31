@@ -12,9 +12,10 @@
     width: 100%;
     background-size: cover;
     background-position: top;
+    
 }
 .nav{
-
+// z-index: 10000;
     transform: translateY(-3rem);
     display: flex;
     justify-content: space-between;
@@ -28,6 +29,7 @@
         display: none;
       }
 &_list{
+  // z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999;
 list-style: none;
 margin-top: 1.2rem;
 align-items: right;
