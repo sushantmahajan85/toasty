@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        
+            <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    
+            <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-analytics.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Thapar Toastmasters</title> 
-     <link rel="stylesheet" href="aos.css">  
+        <link rel="stylesheet" href="aos.css">  
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Oswald:400,700">
         <link rel="stylesheet" href="sass/css/style.css">
@@ -16,10 +21,12 @@
         <link href="https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&amp;display=swap" rel="stylesheet">
-    <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-	<script type="text/javascript" src="engine1/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section -->
+
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+        <script type="text/javascript" src="engine1/jquery.js"></script>
+  
+        <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-firestore.js"></script>
     </head>
 	<body >
         
@@ -194,12 +201,12 @@
 <div class="section-contact_area" >
     <div class="translate_right  section-contact_left">
 <div class="heading-secondary" id="contact-heading">REACH US OUT</div>
-<form action="#">
+<form action="#" id="form">
     
-    <input type="text" placeholder="Your Name" id="name" class="input" required>
+    <input type="text" placeholder="Your Name" id="name" class="input" name="name"required>
  
-    <input type="email" placeholder="Your Email" class="input" id="email" required >
-    <textarea type="text" placeholder="Your Query" class="input" id="query" required ></textarea>
+    <input type="email" placeholder="Your Email" class="input" id="email" name="email" required >
+    <input type="text" placeholder="Your Query" class="input" id="query" name="query" required >
     <button class="submit">Submit</button>
 </form>
 </div>
@@ -264,7 +271,32 @@
                     </div>
                     
         </div>
-        <script
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAeiuZfaI5RKUFx1OvC0O3kXS7QHU3Jwaw",
+    authDomain: "toastmasters-96f73.firebaseapp.com",
+    databaseURL: "https://toastmasters-96f73.firebaseio.com",
+    projectId: "toastmasters-96f73",
+    storageBucket: "toastmasters-96f73.appspot.com",
+    messagingSenderId: "772857575766",
+    appId: "1:772857575766:web:e3b3b69b7705eeff47fef7",
+    measurementId: "G-FFPVB3MYND"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+ 
+  const db= firebase.firestore();
+  firebase.analytics();
+</script>
+
+
+<script src="app.js">
+</script>
+
+
+<script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
