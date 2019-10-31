@@ -14,6 +14,14 @@
     background-position: top;
     
 }
+.follow_us{
+  text-align: start;
+  color:white;
+  font-size: 2.5rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
 .nav{
 // z-index: 10000;
     transform: translateY(-3rem);
@@ -98,7 +106,13 @@ border: 1px solid #fff;
 margin-right: 3rem;
 color: #fff;
 border-radius: 50%;
-
+@include respond(tab-port){
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+}
     }
 }
 
@@ -107,7 +121,9 @@ border-radius: 50%;
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    z-index: 10000000000000;
     top: 0;
     right: 0;
     background-color: #111;
@@ -121,7 +137,7 @@ border-radius: 50%;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
-    z-index: 99999999999999999999999;
+    // z-index: 999999999999999999999999999999999999999999999999999;
     display: block;
     transition: 0.3s;
     
@@ -141,7 +157,11 @@ border-radius: 50%;
   
   #main {
     transition: margin-left .5s;
-    padding: 16px;
+    padding: 4rem;
+    background-color: black;
+    position: relative;
+    width: inherit;
+    z-index: 10000;
   }
   
   @media screen and (max-height: 450px) {
@@ -154,15 +174,92 @@ border-radius: 50%;
       display: none ;
       color: white;
       padding: 0.5rem;
-      position: fixed;
-      top: 3rem;
-      right: 3rem;
-    z-index: 999999999999999999999999999999;
-       @include respond(tab-land){
+      position: absolute;
+      top: 2.3rem;
+      right: 2rem;
+    z-index: 99;
+       @include respond(tab-port){
         opacity: 1;
         visibility: visible;
-        display: unset;
+        
+        display: inline-block;
         background-color: black;
         color: white;
       }
   }
+  .logo_phone{
+    @include respond(tab-port){
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left: -2rem;
+
+    }
+  }
+  
+  .navigation_list{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    @include respond (tab-port){
+        text-align: start;
+          }
+        }
+        .navigation_item{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 0.8rem;
+    
+    width: 100%;
+    @include respond (tab-port){
+        font-size: 0.8rem;
+          }
+    }
+    .material-icons{
+      color:gray;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      
+      &:hover{
+          color: red;
+      }
+      }
+      .nav_tff{
+          text-align: start;
+          color:white;
+          font-size: 2.5rem;
+          margin-left: 4rem;
+          margin-bottom: 4rem;
+          font-family: 'Amaranth';
+          
+      }
+      .navigation_link{
+        &:link,&:visited{
+            text-decoration: none;
+color: white;
+background-image: linear-gradient(120deg, transparent 0%,transparent 50%,white 50%);
+    background-size: 220%;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    transition: all .4s;
+
+        }
+&:hover,&:active{
+    color:gray;
+    background-position: 100%;
+}
+    }
+    .nav_logos{
+      background-image: none;
+      margin-top: 3.5rem;
+  }
+      

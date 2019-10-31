@@ -153,3 +153,9 @@ color: tan;
   margin-top: 2rem;
 }
 }
+.width{
+  @include respond (tab-port){
+    width: 80%;
+    margin: 0 auto;
+   }
+}
