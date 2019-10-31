@@ -147,7 +147,7 @@ color: tan;
 .youtube{
   text-align: center;
   overflow: hidden;
-@include respond(tab-land){
+@include respond(tab-port){
   height: 220px;
   width: 310px;
   margin-top: 2rem;
