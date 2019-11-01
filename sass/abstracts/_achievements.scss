@@ -7,7 +7,7 @@ padding: 7rem 0 ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     width: 80%;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.904);
     padding: 2rem;
     transform: translateY(-6.4rem);
     // border-top-right-radius: 50%;
@@ -71,26 +71,26 @@ opacity: 0.87;
 
 //     }
 }
-.story{
-    transform: skewX(12deg);
-&_shape{
-padding: 3rem;
-height: 10rem;
-width: 10rem;
-// background-color: orangered;
-background-image: url(../img/aditya.jpeg);
-background-size: 100% 100%;
-float: left;
-shape-outside: circle(50% at 50% 50%);
-clip-path: circle(50% at 50% 50%);
-transform: translateX(-1.5rem);
-&:hover{
-    filter: blur(3px) brightness(80%);
-}
-}
+// .story{
+//     transform: skewX(12deg);
+// &_shape{
+// padding: 3rem;
+// height: 10rem;
+// width: 10rem;
+// // background-color: orangered;
+// background-image: url(../img/aditya.jpeg);
+// background-size: 100% 100%;
+// float: left;
+// shape-outside: circle(50% at 50% 50%);
+// clip-path: circle(50% at 50% 50%);
+// transform: translateX(-1.5rem);
+// &:hover{
+//     filter: blur(3px) brightness(80%);
+// }
+// }
 
 
-}
+// }
 .heading-small{
     font-size: 2.2rem;
     color: rgb(53, 53, 53);

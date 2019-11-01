@@ -174,12 +174,12 @@
   font-size: 2.3rem;
   color: rgba(0, 0, 0, 0.8);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-bottom: 2.3rem; }
+  margin-bottom: 1rem; }
 
 .grey {
   color: rgba(0, 0, 0, 0.6) !important;
   font-family: "Raleway", sans-serif !important;
-  margin-bottom: 2.3rem !important; }
+  margin-bottom: 1.2rem !important; }
 
 .countdown {
   position: relative;
@@ -587,7 +587,7 @@ rgba(0, 0, 0, 0.349);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     width: 80%;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.904);
     padding: 2rem;
     transform: translateY(-6.4rem);
     opacity: 0.87; }
@@ -597,21 +597,6 @@ rgba(0, 0, 0, 0.349);
         padding: 1rem;
         font-size: 1.5rem;
         transform: translateY(-4.1rem); } }
-
-.story {
-  transform: skewX(12deg); }
-  .story_shape {
-    padding: 3rem;
-    height: 10rem;
-    width: 10rem;
-    background-image: url(../img/aditya.jpeg);
-    background-size: 100% 100%;
-    float: left;
-    shape-outside: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
-    transform: translateX(-1.5rem); }
-    .story_shape:hover {
-      filter: blur(3px) brightness(80%); }
 
 .heading-small {
   font-size: 2.2rem;
@@ -686,7 +671,7 @@ rgba(0, 0, 0, 0.349);
   left: 2rem; }
 
 .header {
-  background-image: linear-gradient(to left, rgba(167, 29, 49, 0.8), rgba(63, 13, 18, 0.8)), url(../img/header.jpg);
+  background-image: linear-gradient(to left, rgba(167, 29, 50, 0.705), rgba(63, 13, 18, 0.705)), url(../img/header.jpg);
   height: 104.5vh;
   width: 100%;
   background-size: cover;
@@ -713,29 +698,23 @@ rgba(0, 0, 0, 0.349);
       display: none; } }
   .nav_list {
     list-style: none;
-    margin-top: 1.2rem;
-    align-items: right; }
+    margin-top: 1.2rem; }
   .nav_links {
     display: inline-block;
-    padding: 1px;
     margin-top: -0.3em;
-    padding-right: 1em;
-    margin-right: 10rem;
     font-family: 'Signika',  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-size: 2rem;
     font-weight: 400; }
     .nav_links:not(:last-child) {
-      margin-right: 2rem; }
+      margin-right: 3rem;
+      padding-right: 1em; }
   .nav_logo {
-    font-weight: 900;
-    font-size: 3rem;
-    margin-left: 1rem;
-    margin-right: 1em; }
+    margin-left: 2.5rem;
+    margin-top: -1.2rem; }
 
 .login {
   text-decoration: none;
-  padding: 1.1rem;
   margin-right: 2rem;
   margin-top: 0.2rem;
   border-radius: 10rem;
@@ -744,8 +723,7 @@ rgba(0, 0, 0, 0.349);
   font-weight: 600;
   color: white; }
   .login:hover {
-    background-color: white;
-    color: #861657; }
+    color: #e61c92; }
 
 .social {
   position: absolute;
@@ -909,3 +887,23 @@ rgba(0, 0, 0, 0.349);
 .nav_logos {
   background-image: none;
   margin-top: 3.5rem; }
+
+.header_content {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .header_content_main {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.747); }
+  .header_content_small {
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    text-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.712); }

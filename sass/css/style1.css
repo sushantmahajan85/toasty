@@ -184,6 +184,7 @@
 .action--close {
 	position: fixed;
 	z-index: 150;
+	color: #fff;
 	top: 0;
 	right: 0;
 	padding: 1em;
