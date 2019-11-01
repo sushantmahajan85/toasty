@@ -24,7 +24,7 @@
 
 .nav{
 // z-index: 10000;
-    transform: translateY(-3rem);
+    // transform: translateY(-3rem);
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -162,6 +162,17 @@ border-radius: 50%;
     position: relative;
     width: inherit;
     z-index: 10000;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    @include respond(tab-port){
+      opacity: 1;
+      visibility: visible;
+      
+      display: unset;
+      background-color: black;
+     
+    }
   }
   
   @media screen and (max-height: 450px) {

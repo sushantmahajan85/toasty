@@ -696,7 +696,6 @@ rgba(0, 0, 0, 0.349);
   margin-top: 4rem; }
 
 .nav {
-  transform: translateY(-3rem);
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -814,7 +813,16 @@ rgba(0, 0, 0, 0.349);
   background-color: black;
   position: relative;
   width: inherit;
-  z-index: 10000; }
+  z-index: 10000;
+  display: none;
+  opacity: 0;
+  visibility: hidden; }
+  @media (max-width: 56.25em) {
+    #main {
+      opacity: 1;
+      visibility: visible;
+      display: unset;
+      background-color: black; } }
 
 @media screen and (max-height: 450px) {
   .sidenav {
