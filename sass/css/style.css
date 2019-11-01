@@ -686,7 +686,7 @@ rgba(0, 0, 0, 0.349);
   left: 2rem; }
 
 .header {
-  background-image: linear-gradient(to left, #f12711bd, #f5af19bd), url(../img/header.jpg);
+  background-image: linear-gradient(to left, rgba(167, 29, 49, 0.8), rgba(63, 13, 18, 0.8)), url(../img/header.jpg);
   height: 104.5vh;
   width: 100%;
   background-size: cover;
@@ -745,7 +745,7 @@ rgba(0, 0, 0, 0.349);
   color: white; }
   .login:hover {
     background-color: white;
-    color: #ff4000; }
+    color: #861657; }
 
 .social {
   position: absolute;
@@ -883,7 +883,7 @@ rgba(0, 0, 0, 0.349);
   left: 50%;
   transform: translate(-50%, -50%); }
   .material-icons:hover {
-    color: red; }
+    color: #861657; }
 
 .nav_tff {
   text-align: start;
