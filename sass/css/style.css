@@ -589,7 +589,7 @@ rgba(0, 0, 0, 0.349);
     width: 80%;
     background-color: gray;
     padding: 2rem;
-    transform: translateY(-6.2rem);
+    transform: translateY(-6.4rem);
     opacity: 0.87; }
     @media (max-width: 56.25em) {
       .achievements_text {
@@ -633,7 +633,8 @@ rgba(0, 0, 0, 0.349);
   transition: all 0.3s; }
   @media (max-width: 37.5em) {
     .prize1 {
-      height: 160px; } }
+      height: 160px;
+      width: 160px; } }
   .prize1:hover {
     filter: opacity(0.7); }
 
@@ -641,6 +642,7 @@ rgba(0, 0, 0, 0.349);
   transition: all 0.3s; }
   @media (max-width: 37.5em) {
     .prize2 {
+      width: 160px;
       height: 160px; } }
   .prize2:hover {
     filter: opacity(0.7); }
@@ -649,7 +651,8 @@ rgba(0, 0, 0, 0.349);
   transition: all 0.3s; }
   @media (max-width: 37.5em) {
     .prize3 {
-      height: 160px; } }
+      height: 160px;
+      width: 160px; } }
   .prize3:hover {
     filter: opacity(0.7); }
 
@@ -657,7 +660,8 @@ rgba(0, 0, 0, 0.349);
   transition: all 0.3s; }
   @media (max-width: 37.5em) {
     .prize4 {
-      height: 160px; } }
+      height: 160px;
+      width: 160px; } }
   .prize4:hover {
     filter: opacity(0.7); }
 
