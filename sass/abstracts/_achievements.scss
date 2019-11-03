@@ -1,5 +1,12 @@
 .achievements{
 position: relative;
+@include respond(tab-port){
+    
+width: 87%;
+margin: 0 auto;
+   }
+width: 80%;
+margin: 0 auto;
 padding: 7rem 0 ;
 &_text{
     text-align: center;
@@ -19,16 +26,17 @@ opacity: 0.87;
    font-size: 1.5rem;
    transform: translateY(-4.1rem);
   }}
-background-image: url(../img/grid.jpg);
-background-size: 100% 100%;
     &_box1{
 box-shadow: 0 0 1rem rgba(0, 0, 0, 0.253);
 padding: 5rem;
 background-color: rgba(236, 233, 233, 0.76);
 transition: all 0.3s;
  &:hover{
-    transform: scale(1.05); 
+    transform: scale(1.05) ; 
 } 
+@include respond(tab-port){
+    padding: 3rem;
+   }
     }
     
     &_box2{
@@ -40,6 +48,9 @@ transition: all 0.3s;
  &:hover{
     transform: scale(1.05); 
 } 
+@include respond(tab-port){
+    padding: 3rem;
+   }
 
     }
     &_box3{
@@ -51,7 +62,9 @@ transition: all 0.3s;
 background-color: rgba(236, 233, 233, 0.76);
  &:hover{
     transform: scale(1.05); 
-} 
+} @include respond(tab-port){
+    padding: 3rem;
+   }
 
     }
     &_box4{
@@ -60,11 +73,12 @@ box-shadow: 0 0 1rem rgba(0, 0, 0, 0.253);
 
 transition: all 0.3s;
 padding: 5rem;
-padding-bottom: 8rem;
 background-color: rgba(236, 233, 233, 0.76);
  &:hover{
     transform: scale(1.05); 
-} 
+} @include respond(tab-port){
+    padding: 3rem;
+   }
 
     }
 }
@@ -83,7 +97,13 @@ clip-path: circle(50% at 50% 50%);
 transform: translateX(-1.5rem);
 &:hover{
     filter: blur(1px) brightness(80%);
-}
+}@include respond(tab-port){
+    padding: 2rem;
+    height: 9rem;
+    width: 9rem;
+    transform: translateX(-1rem) translateY(1.5rem);
+    
+   }
 }
 
 
@@ -158,4 +178,19 @@ filter: opacity(0.7)  ;
                 }
                 transition: all 0.3s;
 // flex: 0 0 24%;
+}
+.skew{
+transform: skewX(-12deg);
+@include respond(tab-port){
+transform: skewX(-10deg);
+   }
+&:hover{
+    transform: scale(1.045) skewX(-12deg);
+}
+}
+.skew1{
+transform: skewX(12deg);
+@include respond(tab-port){
+    transform: skewX(10deg);
+   }
 }
