@@ -84,14 +84,16 @@ background-color: rgba(236, 233, 233, 0.76);
 }
 .story{
     transform: skewX(0deg);
+    font-size: 10rem;
 &_shape{
-padding: 3rem;
+padding: 7rem;
 height: 10rem;
 width: 10rem;
 // background-color: maroon;
 background-image: url(../img/aditya.jpeg);
 background-size: 100% 100%;
 float: left;
+margin-right: 1rem;
 shape-outside: circle(50% at 50% 50%);
 clip-path: circle(50% at 50% 50%);
 transform: translateX(-1.5rem);
@@ -106,10 +108,9 @@ transform: translateX(-1.5rem);
    }
 }
 
-
 }
 .heading-small{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: rgb(53, 53, 53);
     margin-bottom: 1.1rem;
     @include respond(tab-port){
