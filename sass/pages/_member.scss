@@ -40,7 +40,7 @@
 .square-box-1 {
   background-image: url(../img/ipad1.jpg);
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 18rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,13 +52,13 @@
 
   &:hover {
     box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
+    // transform: translateY(-1rem) scale(1.1);
   }
   @include respond(tab-land) {
-    padding: 25rem 10rem 29rem 10rem;
+    padding: 25rem;
   }
   @include respond(tab-port) {
-    padding: 9rem 6rem 27rem 6rem;
+    padding: 20rem;
   }
 }
 .centre {
@@ -70,7 +70,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 18rem;
   text-align: center;
   font-size: 1.5rem;
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
@@ -80,11 +80,11 @@
     padding: 25rem 10rem 29rem 10rem;
   }
   @include respond(tab-port) {
-    padding: 9rem 6rem 27rem 6rem;
+    padding: 20rem ;
   }
   &:hover {
     box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
+    // transform: translateY(-1rem) scale(1.1);
   }
 }
 .square-box-3 {
@@ -93,7 +93,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 18rem;
   text-align: center;
   font-size: 1.5rem;
   offset: 1rem;
@@ -104,18 +104,18 @@
     padding: 25rem 10rem 29rem 10rem;
   }
   @include respond(tab-port) {
-    padding: 9rem 6rem 27rem 6rem;
+    padding: 20rem;
   }
   border-radius: 20px;
   &:hover {
     box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
+    // transform: translateY(-1rem) scale(1.1);
   }
 }
 .square-box-4 {
   background-image: url(../img/ipad4.jpg);
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 10rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -124,22 +124,22 @@
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
   border-radius: 20px;
-  width: 100%;
+//   width: 90%;
   &:hover {
     box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
+    // transform: translateY(-1rem) scale(1.1);
   }
   @include respond(tab-land) {
     padding: 25rem 20rem 29rem 20rem;
   }
   @include respond(tab-port) {
-    padding: 9rem 15rem 27rem 15rem;
+    padding: 20rem;
   }
 }
 .square-box-5 {
   background-image: url(../img/ipad5.jpg);
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 18rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -148,21 +148,22 @@
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
   border-radius: 20px;
-
+display: inline-block;
   &:hover {
     box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
+    // transform: translateY(-1rem) scale(1.1);
   }
   @include respond(tab-land) {
-    padding: 25rem 10rem 29rem 10rem;
+    padding: 25rem 20rem 29rem 20rem;
   }
   @include respond(tab-port) {
-    padding: 9rem 6rem 27rem 6rem;
+    padding:20rem;
   }
 }
 .member1 {
-  margin: 0 auto;
+//   margin: 0 auto;
 }
 .member2 {
-  text-align: center;
+//   text-align: center;
+//   display: inline-block;
 }

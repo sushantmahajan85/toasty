@@ -32,7 +32,7 @@
 .square-box-1 {
   background-image: url(../img/ipad1.jpg);
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 18rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -42,14 +42,13 @@
   transition: all 0.2s;
   border-radius: 20px; }
   .square-box-1:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1); }
+    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733); }
   @media (max-width: 75em) {
     .square-box-1 {
-      padding: 25rem 10rem 29rem 10rem; } }
+      padding: 25rem; } }
   @media (max-width: 56.25em) {
     .square-box-1 {
-      padding: 9rem 6rem 27rem 6rem; } }
+      padding: 20rem; } }
 
 .centre {
   text-align: center; }
@@ -60,7 +59,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 18rem;
   text-align: center;
   font-size: 1.5rem;
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
@@ -71,10 +70,9 @@
       padding: 25rem 10rem 29rem 10rem; } }
   @media (max-width: 56.25em) {
     .square-box-2 {
-      padding: 9rem 6rem 27rem 6rem; } }
+      padding: 20rem; } }
   .square-box-2:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1); }
+    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733); }
 
 .square-box-3 {
   background-image: url(../img/ipad3.jpg);
@@ -82,7 +80,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 18rem;
   text-align: center;
   font-size: 1.5rem;
   offset: 1rem;
@@ -95,38 +93,14 @@
       padding: 25rem 10rem 29rem 10rem; } }
   @media (max-width: 56.25em) {
     .square-box-3 {
-      padding: 9rem 6rem 27rem 6rem; } }
+      padding: 20rem; } }
   .square-box-3:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1); }
+    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733); }
 
 .square-box-4 {
   background-image: url(../img/ipad4.jpg);
   background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-  font-size: 1.5rem;
-  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-  transition: all 0.2s;
-  border-radius: 20px;
-  width: 100%; }
-  .square-box-4:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1); }
-  @media (max-width: 75em) {
-    .square-box-4 {
-      padding: 25rem 20rem 29rem 20rem; } }
-  @media (max-width: 56.25em) {
-    .square-box-4 {
-      padding: 9rem 15rem 27rem 15rem; } }
-
-.square-box-5 {
-  background-image: url(../img/ipad5.jpg);
-  background-color: #ffffffe8;
-  padding: 16.5rem 18rem;
+  padding: 14rem 10rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -135,21 +109,36 @@
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
   border-radius: 20px; }
+  .square-box-4:hover {
+    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733); }
+  @media (max-width: 75em) {
+    .square-box-4 {
+      padding: 25rem 20rem 29rem 20rem; } }
+  @media (max-width: 56.25em) {
+    .square-box-4 {
+      padding: 20rem; } }
+
+.square-box-5 {
+  background-image: url(../img/ipad5.jpg);
+  background-color: #ffffffe8;
+  padding: 14rem 18rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  font-size: 1.5rem;
+  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
+  transition: all 0.2s;
+  border-radius: 20px;
+  display: inline-block; }
   .square-box-5:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1); }
+    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733); }
   @media (max-width: 75em) {
     .square-box-5 {
-      padding: 25rem 10rem 29rem 10rem; } }
+      padding: 25rem 20rem 29rem 20rem; } }
   @media (max-width: 56.25em) {
     .square-box-5 {
-      padding: 9rem 6rem 27rem 6rem; } }
-
-.member1 {
-  margin: 0 auto; }
-
-.member2 {
-  text-align: center; }
+      padding: 20rem; } }
 
 .section-contact {
   position: relative;
@@ -402,6 +391,9 @@
 html {
   font-size: 62.5%;
   backface-visibility: hidden; }
+  @media (max-width: 96em) {
+    html {
+      font-size: 70.25%; } }
   @media (max-width: 75em) {
     html {
       font-size: 60.25%; } }
@@ -463,6 +455,9 @@ body {
   display: table;
   clear: both;
   margin-bottom: 8rem; }
+  @media (max-width: 96em) {
+    .row {
+      max-width: 120rem; } }
   @media (max-width: 75em) {
     .row {
       max-width: 65rem; } }
@@ -476,6 +471,9 @@ body {
 .col-1-of-2 {
   width: 57rem;
   float: left; }
+  @media (max-width: 96em) {
+    .col-1-of-2 {
+      width: 50rem; } }
   .col-1-of-2:not(:last-child) {
     margin-right: 6rem; }
     @media (max-width: 75em) {
@@ -494,7 +492,7 @@ body {
       width: 100% !important; } }
   .col-1-of-4:not(:last-child) {
     margin-right: 6rem; }
-    @media (max-width: 75em) {
+    @media (max-width: 56.25em) {
       .col-1-of-4:not(:last-child) {
         margin-right: 0;
         width: 100% !important;
@@ -510,6 +508,7 @@ body {
     margin-right: 6rem; }
     @media (max-width: 75em) {
       .col-1-of-3:not(:last-child) {
+        margin-right: 0;
         margin-bottom: 6rem; } }
 
 .popup {
@@ -735,6 +734,9 @@ rgba(0, 0, 0, 0.349);
   width: 80%;
   margin: 0 auto;
   padding: 7rem 0; }
+  @media (max-width: 96em) {
+    .achievements {
+      width: 90% !important; } }
   @media (max-width: 56.25em) {
     .achievements {
       width: 87%;
