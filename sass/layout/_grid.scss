@@ -39,6 +39,7 @@
     
    max-width: 25.5rem;
     float: left;
+    
     @include respond (tab-land){
         width: 100% !important;
   }
@@ -46,7 +47,7 @@
         margin-right: 6rem;
         @include respond (tab-land){
             margin-right: 0;
-            width: 100 !important;
+            width: 100% !important;
             margin-bottom: 6rem;
     }
 }
@@ -55,16 +56,17 @@
     
     width: 36rem;
     float:left;
+    
     @include respond (tab-land){
         width: 100% ;
   }
     &:not(:last-child){
         margin-right: 6rem;
         @include respond (tab-land){
-            margin-right: 0;
+            // margin-right: 0;
             margin-bottom: 6rem;
             
-            
+               
     }
     }
 

@@ -1,13 +1,10 @@
 .achievements{
 position: relative;
-@include respond(tab-achi){
-// width: 90% !important;
-       }
-   @include respond(tab-port){
+@include respond(tab-port){
     
-    width: 87%;
-    margin: 0 auto;
-       }
+width: 87%;
+margin: 0 auto;
+   }
 width: 80%;
 margin: 0 auto;
 padding: 7rem 0 ;
