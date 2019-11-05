@@ -31,7 +31,7 @@
 					<img src="images/img-01.png" alt="IMG" style="margin-bottom: 10rem; ">
 				</div>
 
-				<form class="login100-form validate-form" id="login100-form" onsubmit="getInfo()">
+				<form class="login100-form validate-form" id="login100-form" onsubmit="return getInfo()" action="../member.html">
 					<span class="login100-form-title">
 						Member Login
 					</span>
@@ -53,8 +53,8 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" onclick="getInfo()">
-						<a href="../member.html" class="login100-form-btn" style="text-decoration: none;">Login</a>
+						<button class="login100-form-btn">
+						Login
 						</button>
 					</div>
 
@@ -111,7 +111,10 @@
 			console.log(password)
 			for(i=0;i< objPeople.length;i++){
 			if (password == objPeople[i].roll){
-				console.log(roll + "is logged in")
+			return true;
+			}
+			else{
+				false;
 			}
 			}
 		}
