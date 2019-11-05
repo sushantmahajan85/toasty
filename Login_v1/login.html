@@ -107,16 +107,19 @@
 		}
 		]
 		function getInfo(){
+			flag = false
 			var password = document.getElementById("input100").value;
 			console.log(password)
-			for(i=0;i< objPeople.length;i++){
-			if (password == objPeople[i].roll){
-			return true;
+			for(i = 0; i < objPeople.length; i++) {
+				if (password == objPeople[i].roll) {
+					flag = true
+				}
 			}
-			else{
-				false;
-			}
-			}
+			if(flag) return true
+			else {
+				window.history.back()
+				return false
+			} 
 		}
 		</script>
 			
