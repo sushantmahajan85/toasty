@@ -1,42 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="sass/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="sass/img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amaranth"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Signika&display=swap"
+      rel="stylesheet"
+    />
+    <title>Thapar Toastmasters</title>
+    <script
+      src="https://kit.fontawesome.com/ffe29f123d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="team_section" id="team_section">
+      <div class="team_section-meet">
+        <h1 class="heading-secondary">Welcome Fellow Toastmasters</h1>
+      </div>
+      <div class="row member1">
+        <a href="2016.html" class="col-1-of-3 square-box-1" data-tilt></a>
+        <a href="2018.html" class="col-1-of-3 square-box-2" data-tilt></a>
+      </div>
 
-
-        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="sass/css/style.css">
-        <link rel="shortcut icon" type="image/png" href="sass/img/favicon.png">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
-        <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
-        <title>Thapar Toastmasters</title>
-        <script src="https://kit.fontawesome.com/ffe29f123d.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-                        <section class="team_section" id="team_section">
-                            <div class="team_section-meet">
-                                <h1 class="heading-secondary">Welcome Fellow Toastmasters</h1>
-                            </div>
-                            <div class="row member1">
-                                <a href="2016.html"class="col-1-of-3  square-box-5"> </a>
-                                 <a href="2018.html"class="col-1-of-3 square-box-4"></a> 
-                                </div>
-                        
-                            <!-- <div class="row team_section-paragraph" style="width: 80%"><p></p></div> -->
-                            <div class="row member2">
-                               <a href="2016.html"class="col-1-of-3  square-box-2"> </a>
-                                <a href="2017.html"class="col-1-of-3  square-box-1" id="square-box-1"></a>
-                                <a href="2018.html"class="col-1-of-3 square-box-3"></a>
-                                </div>
-                        </section>
-        </body>
+      <!-- <div class="row team_section-paragraph" style="width: 80%"><p></p></div> -->
+      <div class="row member2">
+        <a href="2016.html" class="col-1-of-3 square-box-3" data-tilt></a>
+        <a href="2017.html" class="col-1-of-3 square-box-4" data-tilt></a>
+        <a href="2018.html" class="col-1-of-3 square-box-5" data-tilt></a>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="tilt.jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.col-1-of-3').tilt({
+          maxTilt: 15;
+        })
+      })
+    </script>
+  </body>
+</html>
