@@ -4,9 +4,6 @@
     @include clearfix;
     
         margin-bottom: 8rem;
-        @include respond(tab-achi){
-            max-width: 120rem;
-          }
    
    @include respond(tab-land){
     max-width: 65rem;
@@ -22,9 +19,7 @@
     .col-1-of-2{
     
        width:57rem;
-       @include respond(tab-achi){
-        width: 50rem;
-      }
+        
           float: left;
           &:not(:last-child){
 
@@ -49,9 +44,9 @@
   }
     &:not(:last-child){
         margin-right: 6rem;
-        @include respond (tab-port){
+        @include respond (tab-land){
             margin-right: 0;
-            width: 100% !important;
+            width: 100 !important;
             margin-bottom: 6rem;
     }
 }

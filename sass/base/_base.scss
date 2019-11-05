@@ -7,9 +7,6 @@
     html{
       font-size: 62.5%;
       backface-visibility: hidden;
-      @include respond(tab-achi){
-        font-size: 70.25%;
-      }
       @include respond(tab-land){
         font-size: 60.25%;
       }

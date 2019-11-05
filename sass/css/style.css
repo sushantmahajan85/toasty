@@ -455,9 +455,6 @@ body {
   display: table;
   clear: both;
   margin-bottom: 8rem; }
-  @media (max-width: 96em) {
-    .row {
-      max-width: 120rem; } }
   @media (max-width: 75em) {
     .row {
       max-width: 65rem; } }
@@ -471,9 +468,6 @@ body {
 .col-1-of-2 {
   width: 57rem;
   float: left; }
-  @media (max-width: 96em) {
-    .col-1-of-2 {
-      width: 50rem; } }
   .col-1-of-2:not(:last-child) {
     margin-right: 6rem; }
     @media (max-width: 75em) {
@@ -492,10 +486,10 @@ body {
       width: 100% !important; } }
   .col-1-of-4:not(:last-child) {
     margin-right: 6rem; }
-    @media (max-width: 56.25em) {
+    @media (max-width: 75em) {
       .col-1-of-4:not(:last-child) {
         margin-right: 0;
-        width: 100% !important;
+        width: 100 !important;
         margin-bottom: 6rem; } }
 
 .col-1-of-3 {
@@ -734,9 +728,6 @@ rgba(0, 0, 0, 0.349);
   width: 80%;
   margin: 0 auto;
   padding: 7rem 0; }
-  @media (max-width: 96em) {
-    .achievements {
-      width: 90% !important; } }
   @media (max-width: 56.25em) {
     .achievements {
       width: 87%;

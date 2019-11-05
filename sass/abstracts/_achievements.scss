@@ -1,7 +1,7 @@
 .achievements{
 position: relative;
 @include respond(tab-achi){
-width: 90% !important;
+// width: 90% !important;
        }
    @include respond(tab-port){
     
