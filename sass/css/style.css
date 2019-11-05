@@ -372,7 +372,7 @@
   flex-direction: row;
   align-items: center;
   align-self: auto;
-  margin-top: 5.5rem; }
+  margin-top: 4rem; }
   @media (max-width: 75em) {
     #clock {
       justify-content: space-evenly;
