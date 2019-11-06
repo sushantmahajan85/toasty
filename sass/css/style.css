@@ -866,13 +866,20 @@ rgba(0, 0, 0, 0.349);
         padding: 5rem;
         height: 9rem;
         width: 9rem;
-        transform: translateX(-1rem) translateY(1.3rem); } }
+        transform: translateX(-1rem) translateY(1rem); } }
     @media (max-width: 56.25em) {
       .story_shape {
         padding: 2rem;
         height: 9rem;
         width: 9rem;
         transform: translateX(-1rem) translateY(1.5rem); } }
+    @media (max-width: 37.5em) {
+      .story_shape {
+        height: 8rem;
+        width: 8rem;
+        padding: 1.5rem;
+        margin-right: 0.2rem;
+        transform: translateX(-1.4rem) translateY(1.7rem); } }
 
 .heading-small {
   font-size: 2.5rem;
@@ -1070,7 +1077,7 @@ rgba(0, 0, 0, 0.349);
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2.3rem;
   color: #818181;
   display: block;
   transition: 0.3s; }
@@ -1082,7 +1089,7 @@ rgba(0, 0, 0, 0.349);
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 2.6rem;
   margin-left: 50px; }
 
 #main {
