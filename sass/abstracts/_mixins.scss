@@ -24,6 +24,16 @@
           @content
         };
        }
+       @if ($breakpoint==achi){
+        @media(max-width: 1500px) {
+          @content
+        };
+       }
+       @if ($breakpoint==achi2){
+        @media(max-width: 1380px) {
+          @content
+        };
+       }
        @if ($breakpoint==big-desktop){
         @media(min-width: 112.5em) {
           @content

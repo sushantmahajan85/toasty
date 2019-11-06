@@ -21,14 +21,22 @@
    font-family: 'Signika', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    color: #555555;
    line-height: 3rem;
+   @include respond(tab-land){
+    text-align: center;
+   }
+  //  @include respond(achi){
+  //   text-align: center;
+  //  }
+   @include respond(achi2){
+    text-align: center;
+    line-height: 2.6rem;
+    font-size: 1.4rem;
+   }
    &:not(:last-child){
      margin-bottom: 3rem;
    }
    
-@include respond(tab-land){
- text-align: center;
- 
-}
+
  }
  .events_para{
    text-align: center;
