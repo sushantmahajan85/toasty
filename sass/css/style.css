@@ -1176,7 +1176,7 @@ rgba(0, 0, 0, 0.349);
   left: 50%;
   transform: translate(-50%, -50%); }
   .material-icons:hover {
-    color: #861657; }
+    color: black; }
 
 .nav_tff {
   text-align: start;
