@@ -925,6 +925,14 @@ rgba(0, 0, 0, 0.349);
   .width .p {
     font-size: 2rem; } }
 
+@media (max-width: 56.25em) {
+  .phone_center {
+    margin-left: 22rem; } }
+
+@media (max-width: 1380px) {
+  .phone_center .p {
+    font-size: 2rem; } }
+
 .u-centre {
   text-align: center; }
 

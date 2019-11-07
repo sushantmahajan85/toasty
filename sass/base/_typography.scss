@@ -155,3 +155,10 @@ rgba(0, 0, 0, 0.349);
     margin: 0 auto;
   }
 }
+.phone_center{
+  
+  @include respond(tab-port) {
+
+margin-left: 22rem;
+}
+}
