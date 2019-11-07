@@ -3,14 +3,14 @@
 background-color: white;
     padding: 10rem;
     display: flex;
-    
 @include respond(tab-land){
     transform: translateY(-22rem);
+    // padding: 9rem;
   }    
   @include respond(tab-port){
-    transform: translateY(1rem);
+    transform: translateY(-11rem);
+    padding: 5.6rem;
 }
-
     &_row{
         border-radius: 1rem;
         position: absolute;
@@ -46,26 +46,14 @@ align-self: center;
 @include respond(tab-land){
     justify-content: space-evenly;
     margin-top: 0rem;
-    // transform: translateX(3rem);
+    transform: translateX(3rem);
   }
   @include respond(tab-port){
     margin-top: -2rem;
 }
-@include respond(achi){
-    margin-left: 10.5rem;
-} @include respond(achi2){
-    
-    margin-left: 10.5rem;
-}
 margin-top: 4rem;
 & div{
     margin: 2rem;
-    @include respond(achi){
-        margin-right:6rem;
-    } @include respond(achi2){
-        
-        margin-right: 6rem;
-    }
     
 }
 & div span:nth-child(1){
