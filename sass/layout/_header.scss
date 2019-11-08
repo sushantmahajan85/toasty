@@ -165,7 +165,7 @@
   display: none;
   opacity: 0;
   visibility: hidden;
-  @include respond(tab-port) {
+  @include respond(tab-land) {
     opacity: 1;
     visibility: visible;
 
@@ -192,7 +192,7 @@
   top: 0.5rem;
   right: 2rem;
   z-index: 99;
-  @include respond(tab-port) {
+  @include respond(tab-land) {
     opacity: 1;
     visibility: visible;
 
@@ -202,7 +202,7 @@
   }
 }
 .logo_phone {
-  @include respond(tab-port) {
+  @include respond(tab-land) {
     font-size: 2.2rem;
     text-transform: uppercase;
     color: white;

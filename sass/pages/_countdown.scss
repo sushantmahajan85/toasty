@@ -11,6 +11,9 @@ background-color: white;
     transform: translateY(-11rem);
     padding: 5.6rem;
 }
+@include respond(achi2){
+    padding-right: 1rem;
+    }
     &_row{
         border-radius: 1rem;
         position: absolute;
@@ -18,7 +21,7 @@ background-color: white;
         left: 50%;
         transform: translate(-50%,-50%);
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.267);
-        padding: 6.5rem 0rem 6.5rem 0rem;
+        padding: 5.7rem 0rem 5.5rem 0rem;
 
     background-color: white;
     width: 100%;
@@ -28,6 +31,9 @@ background-color: white;
     }
     &_col1{
 padding-right: 6rem;
+@include respond(achi2){
+    padding-right: 1rem;
+    }
 }
     &_col2{
     
