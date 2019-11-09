@@ -1358,7 +1358,7 @@ rgba(0, 0, 0, 0.349);
   font-weight: 600;
   color: white; }
   .login:hover {
-    color: #e61c92; }
+    color: black; }
 
 .social {
   position: absolute;
