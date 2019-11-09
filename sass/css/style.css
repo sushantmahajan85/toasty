@@ -459,7 +459,8 @@
       font-size: 2rem; } }
   @media (max-width: 56.25em) {
     #clock {
-      margin-top: -2rem; } }
+      margin-top: -2rem;
+      margin-right: 4rem; } }
   @media (max-width: 1380px) {
     #clock .p {
       font-size: 2rem; } }
