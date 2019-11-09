@@ -38,8 +38,7 @@
   }
 }
 .square-box-1 {
-  background-image: url(../img/ipad1.jpg);
-  background-color: #ffffffe8;
+  background-image: url(../img/yellow.png);
   padding: 16.5rem 18rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -55,7 +54,7 @@
     transform: translateY(-1rem) scale(1.1);
   }
   @include respond(tab-land) {
-    padding: 25rem ;
+    padding: 25rem;
   }
   @include respond(tab-port) {
     padding: 20rem;
@@ -65,11 +64,10 @@
   text-align: center;
 }
 .square-box-2 {
-  background-image: url(../img/ipad2.jpg);
+  background-image: url(../img/yellow.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ffffffe8;
   padding: 16.5rem 18rem;
   text-align: center;
   font-size: 1.5rem;
@@ -88,11 +86,10 @@
   }
 }
 .square-box-3 {
-  background-image: url(../img/ipad3.jpg);
+  background-image: url(../img/yellow.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ffffffe8;
   padding: 16.5rem 18rem;
   text-align: center;
   font-size: 1.5rem;
@@ -101,7 +98,7 @@
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
   @include respond(tab-land) {
-    padding: 25rem ;
+    padding: 25rem;
   }
   @include respond(tab-port) {
     padding: 20rem;
@@ -113,8 +110,7 @@
   }
 }
 .square-box-4 {
-  background-image: url(../img/ipad4.jpg);
-  background-color: #ffffffe8;
+  background-image: url(../img/yellow.png);
   padding: 16.5rem 18rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -130,15 +126,14 @@
     transform: translateY(-1rem) scale(1.1);
   }
   @include respond(tab-land) {
-    padding: 25rem ;
+    padding: 25rem;
   }
   @include respond(tab-port) {
     padding: 20rem;
   }
 }
 .square-box-5 {
-  background-image: url(../img/ipad5.jpg);
-  background-color: #ffffffe8;
+  background-image: url(../img/yellow.png);
   padding: 16.5rem 18rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -154,7 +149,7 @@
     transform: translateY(-1rem) scale(1.1);
   }
   @include respond(tab-land) {
-    padding: 25rem ;
+    padding: 25rem;
   }
   @include respond(tab-port) {
     padding: 20rem;
