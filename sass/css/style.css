@@ -95,7 +95,6 @@
   text-align: center;
   font-size: 1.5rem;
   offset: 1rem;
-  outline-offset: 4px solid white;
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
   border-radius: 20px; }
@@ -125,8 +124,7 @@
   font-size: 1.5rem;
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
-  border-radius: 20px;
-  width: 100%; }
+  border-radius: 20px; }
   .square-box-4:hover {
     box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
     transform: translateY(-1rem) scale(1.1); }
@@ -175,6 +173,12 @@
 
 .member2 {
   text-align: center; }
+
+.member_image {
+  height: 25rem;
+  width: 28rem; }
+  .member_image:not(:last-child) {
+    margin-right: -10rem; }
 
 .section-contact {
   position: relative;
