@@ -16,7 +16,7 @@
   background-size: cover;
   background-position: top;
   @include respond(tab-port) {
-  height: 109vh; 
+    height: 109vh;
   }
 }
 .follow_us {
@@ -44,7 +44,7 @@
   }
   &_list {
     list-style: none;
-    margin-top: 1.2rem;
+    margin-top: 1rem;
   }
   &_links {
     display: inline-block;
@@ -55,7 +55,10 @@
     color: white;
     font-size: 2rem;
     font-weight: 400;
-
+    &:hover {
+      color: black;
+      transform: translateY(-0.2rem);
+    }
     &:not(:last-child) {
       margin-right: 3rem;
 
@@ -68,6 +71,7 @@
     margin-top: -1.2rem;
   }
 }
+
 .login {
   text-decoration: none;
   // padding: 1.1rem;
@@ -82,7 +86,7 @@
   color: white;
   &:hover {
     // background-color: white;
-    color: black ;
+    color: black;
   }
 }
 .social {
@@ -235,7 +239,6 @@
   margin: 0.8rem;
 
   width: 100%;
-  
 }
 .material-icons {
   color: gray;

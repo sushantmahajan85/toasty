@@ -1,5 +1,11 @@
+body {
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/meeting.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .team_section {
-  background-color: #f7f7f7;
   background-image: url(../img/pattern1.jpg);
   // background-position: center;
   // background-size: fill;
@@ -21,7 +27,7 @@
   text-align: center;
 }
 .team_section-text {
-  display: inline-block;
+
   font-weight: 1200;
   font-size: 4rem;
 
@@ -39,20 +45,13 @@
 }
 .square-box-1 {
   background-image: url(../img/yellow.png);
-  padding: 16.5rem 18rem;
+
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   font-size: 1.5rem;
-  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-  transition: all 0.2s;
-  border-radius: 20px;
 
-  &:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
-  }
   @include respond(tab-land) {
     padding: 25rem;
   }
@@ -68,21 +67,14 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 16.5rem 18rem;
+
   text-align: center;
   font-size: 1.5rem;
-  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-  transition: all 0.2s;
-  border-radius: 20px;
   @include respond(tab-land) {
     padding: 25rem;
   }
   @include respond(tab-port) {
     padding: 20rem;
-  }
-  &:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
   }
 }
 .square-box-3 {
@@ -90,39 +82,24 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 16.5rem 18rem;
+
   text-align: center;
   font-size: 1.5rem;
-  offset: 1rem;
-  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-  transition: all 0.2s;
   @include respond(tab-land) {
     padding: 25rem;
   }
   @include respond(tab-port) {
     padding: 20rem;
   }
-  border-radius: 20px;
-  &:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
-  }
 }
 .square-box-4 {
   background-image: url(../img/yellow.png);
-  padding: 16.5rem 18rem;
+
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   font-size: 1.5rem;
-  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-  transition: all 0.2s;
-  border-radius: 20px;
-  &:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
-  }
   @include respond(tab-land) {
     padding: 25rem;
   }
@@ -132,20 +109,12 @@
 }
 .square-box-5 {
   background-image: url(../img/yellow.png);
-  padding: 16.5rem 18rem;
+
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   font-size: 1.5rem;
-  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-  transition: all 0.2s;
-  border-radius: 20px;
-
-  &:hover {
-    box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
-    transform: translateY(-1rem) scale(1.1);
-  }
   @include respond(tab-land) {
     padding: 25rem;
   }
@@ -153,15 +122,9 @@
     padding: 20rem;
   }
 }
-.member1 {
-  margin: 0 auto;
-}
-.member2 {
-  text-align: center;
-}
 .member_image{
-  height: 25rem;
-  width: 28rem;
+  height: 44rem;
+  width: 26rem;
   &:not(:last-child){
     margin-right: -10rem;
   }
