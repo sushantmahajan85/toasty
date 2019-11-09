@@ -25,9 +25,9 @@
   //  @include respond(achi){
   //   text-align: center;
   //  }
-  
+
   @include respond(tab-port) {
-    font-size: 1.8rem !important;
+    font-size: 2rem !important;
   }
   @include respond(achi2) {
     text-align: center;
@@ -42,7 +42,6 @@
   text-align: center;
   letter-spacing: 0.1rem;
   margin-bottom: -2rem;
-  
 }
 .event_text {
   text-align: center;
@@ -159,10 +158,9 @@ rgba(0, 0, 0, 0.349);
     margin: 0 auto;
   }
 }
-.phone_center{
-  
+.phone_center {
   @include respond(tab-port) {
-margin-top: -8rem;
-margin-left: 21rem;
-}
+    margin-top: -8rem;
+    margin-left: 21rem;
+  }
 }
