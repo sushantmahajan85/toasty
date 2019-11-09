@@ -568,7 +568,7 @@ body {
 .footer_para {
   color: whitesmoke;
   line-height: 2rem;
-  padding: 1rem;
+  padding: 0.4rem;
   font-size: 1.5rem;
   font-family: 'Amaranth';
   display: inline-block; }
