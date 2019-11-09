@@ -1284,7 +1284,7 @@ rgba(0, 0, 0, 0.349);
       font-size: 2rem; } }
   @media (max-width: 37.5em) {
     .section-about {
-      padding: 39rem 0 1rem 0; } }
+      padding: 37rem 0 1rem 0; } }
   @media (max-width: 1380px) {
     .section-about .p {
       font-size: 2rem; } }
@@ -1301,6 +1301,12 @@ rgba(0, 0, 0, 0.349);
   width: 100%;
   background-size: cover;
   background-position: top; }
+  @media (max-width: 56.25em) {
+    .header {
+      height: 109vh; } }
+  @media (max-width: 1380px) {
+    .header .p {
+      font-size: 2rem; } }
 
 .follow_us {
   text-align: start;

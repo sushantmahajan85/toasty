@@ -15,6 +15,9 @@
   width: 100%;
   background-size: cover;
   background-position: top;
+  @include respond(tab-port) {
+  height: 109vh; 
+  }
 }
 .follow_us {
   text-align: start;
