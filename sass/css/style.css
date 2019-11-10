@@ -1,14 +1,8 @@
-body {
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/meeting.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center; }
-
 .team_section {
-  background-image: url(../img/pattern1.jpg);
+  background-image: linear-gradient(to bottom left, #861414, #2e2323);
+  background-size: cover;
   width: 100%;
-  height: 100%;
-  padding-bottom: 5rem; }
+  height: 100vh; }
   .team_section-paragraph {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
@@ -137,10 +131,61 @@ body {
       font-size: 2rem; } }
 
 .member_image {
-  height: 44rem;
-  width: 26rem; }
+  height: 30rem;
+  width: 20rem;
+  margin-top: -10rem;
+  flex-wrap: wrap;
+  position: relative; }
   .member_image:not(:last-child) {
-    margin-right: -10rem; }
+    margin-right: -15rem; }
+  @media (max-width: 56.25em) {
+    .member_image {
+      height: 18rem;
+      margin: 0.4rem;
+      width: 15rem;
+      margin-top: -12rem;
+      margin-bottom: 3rem; }
+      .member_image:not(:last-child) {
+        margin-right: 0;
+        margin-left: -1.5rem; } }
+  @media (max-width: 1380px) {
+    .member_image .p {
+      font-size: 2rem; } }
+
+.member_image_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+  background-color: white;
+  width: 85%;
+  height: 60rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.411);
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem; }
+  @media (max-width: 56.25em) {
+    .member_image_container {
+      height: 85rem; } }
+  @media (max-width: 1380px) {
+    .member_image_container .p {
+      font-size: 2rem; } }
+
+.member_nav {
+  opacity: 0;
+  visibility: hidden;
+  display: none; }
+  @media (max-width: 75em) {
+    .member_nav {
+      visibility: visible;
+      display: inline-block;
+      opacity: 1; } }
+  @media (max-width: 1380px) {
+    .member_nav .p {
+      font-size: 2rem; } }
 
 .section-contact {
   position: relative;
@@ -332,7 +377,7 @@ body {
 .heading-team {
   font-size: 2.16rem;
   color: rgba(0, 0, 0, 0.8);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin-bottom: 1rem; }
 
 .grey {
@@ -767,7 +812,7 @@ body {
 
 .paragraph {
   font-size: 1.75rem;
-  font-family: "Signika", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Signika", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: #555555;
   line-height: 3rem; }
   @media (max-width: 75em) {
@@ -940,7 +985,7 @@ rgba(0, 0, 0, 0.349);
   .achievements_text {
     text-align: center;
     font-size: 1.8rem;
-    font-family: "Signika", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Signika", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: white;
     width: 80%;
     background-color: rgba(128, 128, 128, 0.904);
@@ -1134,7 +1179,7 @@ rgba(0, 0, 0, 0.349);
   font-size: 2.5rem;
   color: #353535;
   margin-bottom: 1.1rem;
-  font-family: "Signika", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+  font-family: "Signika", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
   @media (max-width: 1380px) {
     .heading-small {
       text-align: center; } }
@@ -1284,7 +1329,7 @@ rgba(0, 0, 0, 0.349);
   text-align: center;
   padding: 2rem;
   color: white;
-  font-family: "Signika", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+  font-family: "Signika", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
   @media (max-width: 75em) {
     .nav {
       opacity: 0;
@@ -1299,7 +1344,7 @@ rgba(0, 0, 0, 0.349);
   .nav_links {
     display: inline-block;
     margin-top: -0.3em;
-    font-family: "Signika", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Signika", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     font-size: 2rem;
     font-weight: 400; }
@@ -1318,7 +1363,7 @@ rgba(0, 0, 0, 0.349);
   margin-right: 2rem;
   margin-top: 0.2rem;
   border-radius: 10rem;
-  font-family: "Signika", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Signika", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 2rem;
   font-weight: 600;
   color: white; }
@@ -1365,7 +1410,7 @@ rgba(0, 0, 0, 0.349);
   height: 100%;
   width: 0;
   position: fixed;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   z-index: 10000000000000;
   top: 0;
   right: 0;
@@ -1443,7 +1488,7 @@ rgba(0, 0, 0, 0.349);
     font-size: 2.2rem;
     text-transform: uppercase;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; } }
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; } }
 
 @media (max-width: 1380px) {
   .logo_phone .p {
@@ -1505,7 +1550,7 @@ rgba(0, 0, 0, 0.349);
   margin-top: 3.5rem; }
 
 .header_content {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;

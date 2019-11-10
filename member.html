@@ -13,23 +13,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="sass/css/style.css" />
     <link rel="shortcut icon" type="image/png" href="sass/img/favicon.png" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link
       href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -57,21 +52,39 @@
     ></script>
   </head>
   <body>
-    <section class="team_section" id="team_section">
-      <div class="team_section-meet">
-        <h1 class="heading-secondary" style="margin-bottom: 4rem; font-size: 4rem;">Welcome Fellow Toastmasters!</h1>
-      </div>
-      <div class="row member1">
-        <a href="2016.html" class="col-1-of-3 square-box-1" style="margin-right: -5rem;"><img src="sass/img/pale1.png" class="member_image" alt="" data-tilt></a>
-        <a href="2018.html" class="col-1-of-3 square-box-2" style="margin-right: -5rem;"><img src="sass/img/pale2.png" class="member_image" alt="" data-tilt></a>
+      <div class="member_nav" style="padding: 2rem; background-color: white;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        <h2 style="font-size: 2rem;">TOASTMASTERS</h2>
+       <a href="index.html" style="text-decoration: none;color: black ;font-size: 1.8rem;position: absolute;top: 2rem;right: 1.2rem;">LOGOUT</a>
       </div>
 
+      <nav class="nav" style="background-color: white; box-shadow: 0 0 2rem rgba(0, 0, 0, 0.39);padding: 1.5rem;">               
+          <h2 class="nav_logo" style="color: black;font-size: 3rem;margin-top: 0.3rem;">TOASTMASTERS</h2>
+                                  <a href="index.html" class="login" style="color: black;margin-top: 0.4rem;">LOGOUT</a> 
+      </nav>
+    <section class="team_section" id="team_section">
+      <div class="team_section-meet">
+      
+      </div>
+      <div class="member_image_container">
+       <div class="center" style="transform: translateY(-5rem);">  <h1 class="heading-secondary" style="margin-bottom: 7rem;margin-top: 5rem; font-size: 4rem;color: black;">Welcome Fellow Toastmasters!</h1> <div class="paragraph" style="width: 60%; margin: 0 auto;margin-top: -5rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum incidunt non harum ullam aperiam, aut voluptatem accusamus tempora nihil quaerat modi minus atque, asperiores quae, voluptatibus quo illum velit ipsum.</div></div>
+        <a href="http://bit.ly/TMRole"><img src="sass/img/pale1.png" alt="" class="member_image" data-tilt></a>
+        <a href="http://bit.ly/TTCEval"><img src="sass/img/pale2.png" alt="" class="member_image" data-tilt></a>
+        <a href="http://bit.ly/TTCMOM"><img src="sass/img/pale3.png" alt="" class="member_image" data-tilt></a>
+        <a href="http://bit.ly/TTCVote"><img src="sass/img/pale4.png" alt="" class="member_image"data-tilt></a>
+        <a href="http://bit.ly/TTCFeed"><img src="sass/img/pale5.png" alt="" class="member_image"data-tilt></a>
+        <a href="http://bit.ly/TTC_Pics"><img src="sass/img/pale5.png" alt="" class="member_image"data-tilt></a>
+      </div>
+      <!-- <div class="row member1">
+        <a href="2016.html" class="col-1-of-3 square-box-1" style="margin-right: -5rem;"><img src="sass/img/pale1.png" class="member_image" alt="" data-tilt></a>
+        <a href="2018.html" class="col-1-of-3 square-box-2" style="margin-right: -5rem;"><img src="sass/img/pale2.png" class="member_image" alt="" data-tilt></a>
+      </div> -->
+
       <!-- <div class="row team_section-paragraph" style="width: 80%"><p></p></div> -->
-      <div class="row member2">
+      <!-- <div class="row member2">
         <a href="2016.html" class="col-1-of-3 square-box-3" style="margin-right: -5rem;"><img src="sass/img/pale3.png" class="member_image" alt="" data-tilt></a>
         <a href="2017.html" class="col-1-of-3 square-box-4" style="margin-right: -5rem;"><img src="sass/img/pale4.png" class="member_image" alt="" data-tilt></a>
         <a href="2018.html" class="col-1-of-3 square-box-5" style="margin-right: -5rem;"><img src="sass/img/pale5.png" class="member_image" alt="" data-tilt></a>
-      </div>
+      </div> -->
     </section>
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
@@ -82,7 +95,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $('.col-1-of-3').tilt({
-          maxTilt: 15,
+          maxTilt: 10,
         })
       })
     </script>
