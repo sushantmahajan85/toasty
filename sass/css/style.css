@@ -642,7 +642,7 @@ body {
       font-size: 2rem; } }
 
 .col-1-of-4 {
-  max-width: 25.5rem;
+  width: 25.5rem;
   float: left;
   width: 100% !important; }
   @media (max-width: 75em) {
