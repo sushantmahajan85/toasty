@@ -14,6 +14,9 @@
       box-shadow: 0 0 2rem rgba(0, 0, 0, 0.397);
       transform: translateY(-0.75rem);
     }
+    @include respond(tab-port) {
+      margin-left: 12.1rem;
+    }
   }
 
   &_img {

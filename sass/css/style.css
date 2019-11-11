@@ -406,6 +406,15 @@
     .team_card:hover {
       box-shadow: 0 0 2rem rgba(0, 0, 0, 0.397);
       transform: translateY(-0.75rem); }
+    @media (max-width: 56.25em) {
+      .team_card {
+        margin-left: 12.1rem; } }
+    @media (max-width: 1380px) {
+      .team_card .p {
+        font-size: 2rem; }
+      .team_card .para {
+        font-size: 1.5rem;
+        margin-right: 1rem; } }
   .team_img {
     display: inline-block;
     height: 12rem;
@@ -782,7 +791,7 @@ body {
       margin-right: 1rem; } }
 
 .col-1-of-4 {
-  width: 25.5rem;
+  max-width: 25.5rem;
   float: left;
   width: 100% !important; }
   @media (max-width: 75em) {
