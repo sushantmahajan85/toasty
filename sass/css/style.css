@@ -425,9 +425,6 @@
     .team_card:hover {
       box-shadow: 0 0 2rem rgba(0, 0, 0, 0.397);
       transform: translateY(-0.75rem); }
-    @media (max-width: 56.25em) {
-      .team_card {
-        margin-left: 12.1rem; } }
     @media (max-width: 1380px) {
       .team_card .p {
         font-size: 2rem; }
@@ -465,6 +462,9 @@
     background-size: 100% 100%; }
   .team_img8 {
     background-image: url(../img/team/kashika.jpeg);
+    background-size: 100% 100%; }
+  .team_img9 {
+    background-image: url(../img/team/vaibhav.jpeg);
     background-size: 100% 100%; }
 
 .heading-team {
@@ -837,11 +837,11 @@ body {
         margin-right: 1rem; } }
 
 .col-1-of-3 {
-  width: 120rem;
+  width: 36rem;
   float: left; }
   @media (max-width: 75em) {
     .col-1-of-3 {
-      width: 100%; } }
+      width: 100% !important; } }
   @media (max-width: 1380px) {
     .col-1-of-3 .p {
       font-size: 2rem; }
@@ -852,6 +852,7 @@ body {
     margin-right: 6rem; }
     @media (max-width: 75em) {
       .col-1-of-3:not(:last-child) {
+        margin-right: 0;
         margin-bottom: 6rem; } }
     @media (max-width: 1380px) {
       .col-1-of-3:not(:last-child) .p {
@@ -1594,6 +1595,45 @@ rgba(0, 0, 0, 0.349);
     .skew1 .para {
       font-size: 1.5rem;
       margin-right: 1rem; } }
+
+@media (max-width: 56.25em) {
+  .achi_text {
+    transform: translateX(1.5rem);
+    width: 90%;
+    margin: 0 auto; } }
+
+@media (max-width: 1380px) {
+  .achi_text .p {
+    font-size: 2rem; }
+  .achi_text .para {
+    font-size: 1.5rem;
+    margin-right: 1rem; } }
+
+@media (max-width: 56.25em) {
+  .phone1 {
+    transform: translateY(3rem);
+    margin-top: 2.4rem;
+    margin-right: -2.4rem; } }
+
+@media (max-width: 1380px) {
+  .phone1 .p {
+    font-size: 2rem; }
+  .phone1 .para {
+    font-size: 1.5rem;
+    margin-right: 1rem; } }
+
+@media (max-width: 56.25em) {
+  .phone2 {
+    transform: translateY(3rem);
+    margin-top: 2.5rem;
+    margin-right: -2.4rem; } }
+
+@media (max-width: 1380px) {
+  .phone2 .p {
+    font-size: 2rem; }
+  .phone2 .para {
+    font-size: 1.5rem;
+    margin-right: 1rem; } }
 
 .section-about {
   background-color: #ffffff;
