@@ -122,19 +122,24 @@
 .member_image{
   height: 30rem;
   width: 20rem;
-  margin-top: -10rem;
+  margin-top:5rem;
+  margin-bottom: -3rem;
   // flex-grow: 1;
   flex-wrap: wrap;
 position: relative;
   &:not(:last-child){
     margin-right: -15rem;
   }
+  @include respond(achi) {
+    width: 18.5rem;
+    height: 27rem;
+  }
   @include respond(tab-port) {
-    height: 18rem;
+    height: 20rem;
     margin: 0.4rem;
-    width: 15rem;
-    margin-top: -12rem;
-    margin-bottom: 3rem;
+    width: 13.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.2rem;
     &:not(:last-child){
       margin-right: 0;
       margin-left: -1.5rem;
@@ -149,15 +154,15 @@ position: relative;
   align-items: center;
   background-color: white;
   width: 85%;
-  height: 60rem;
+  height: 61rem;
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.411);
   position: absolute;
-  top: 53%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%,-50%);
   border-radius: 1rem;
   @include respond(tab-port) {
-height: 85rem;
+height: 80rem;
   }
 }
 .member_nav{
