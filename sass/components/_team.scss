@@ -15,7 +15,7 @@
       transform: translateY(-0.75rem);
     }
     @include respond(tab-port) {
-      margin-left: 12.1rem;
+      // margin-left: 12.1rem;
     }
   }
 
@@ -58,6 +58,10 @@
   }
   &_img8 {
     background-image: url(../img/team/kashika.jpeg);
+    background-size: 100% 100%;
+  }
+  &_img9 {
+    background-image: url(../img/team/vaibhav.jpeg);
     background-size: 100% 100%;
   }
 }
