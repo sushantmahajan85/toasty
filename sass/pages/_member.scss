@@ -164,14 +164,16 @@ position: relative;
   left: 50%;
   transform: translate(-50%,-50%);
   border-radius: 1rem;
-  
   @include respond(achi) {
     transform: translateY(12rem) translate(-50%,-50%);
     height: 50rem;
       }
+  
   @include respond(tab-port) {
 height: 80rem;
+transform: translateY(-2rem) translate(-50%,-50%);
   }
+  
 }
 .member_nav{
   opacity: 0; 

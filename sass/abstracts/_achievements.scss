@@ -263,24 +263,24 @@
     transform: skewX(10deg);
   }
 }
-.achi_text{
-  @include respond(tab-port) {
-    transform: translateX(1.5rem);
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-.phone1{
-  @include respond(tab-port) {
-    transform:  translateY(3rem);
-    margin-top: 2.4rem;
-    margin-right: -2.4rem;
-  }
-}
-.phone2{
-  @include respond(tab-port) {
-    transform:  translateY(3rem);
-    margin-top: 2.5rem;
-    margin-right: -2.4rem;
-  }
-}
+// .achi_text{
+//   @include respond(tab-port) {
+//     transform: translateX(1.5rem);
+//     width: 90%;
+//     margin: 0 auto;
+//   }
+// }
+// .phone1{
+//   @include respond(tab-port) {
+//     transform:  translateY(3rem);
+//     margin-top: 2.4rem;
+//     margin-right: -2.4rem;
+//   }
+// }
+// .phone2{
+//   @include respond(tab-port) {
+//     transform:  translateY(3rem);
+//     margin-top: 2.5rem;
+//     margin-right: -2.4rem;
+//   }
+// }
