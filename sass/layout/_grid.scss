@@ -55,7 +55,7 @@
 .col-1-of-3 {
   width: 36rem;
   float: left;
-// width: 100% !important;
+  // width: 100% !important;
   @include respond(tab-land) {
     width: 100% !important;
   }
